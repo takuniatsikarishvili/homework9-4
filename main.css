@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: #0E0E0E;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    text-decoration: none;
+}
+
+.fulWraper{
+    display: flex;
+    flex-direction: column;
+}
+.conteiner{
+    max-width: 1028px;
+    width: 100%;
+
+}
+.styleheader{
+    display: flex;
+    background: #F2F2F2;
+    justify-content: space-between;
+}
+.navstyle{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 17px;
+
+}
+.stylemainheader{
+    max-width: 1028px;
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+   justify-content: space-between;
+
+}
+.styleconteiner{
+    display: flex;
+    justify-content: center;
+}
+.stylenextgen p{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 800;
+  
+    
+
+}
+.stylenextgen span{
+    color: #DD2590;
+
+}
+
+.mainboxinfo{
+    display: flex;
+    gap: 68px;
+}
+.divmail{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+}
+.divmail p{
+    color: #DD2590;
+    font-size: 20px;
+    font-weight: 700;
+}
